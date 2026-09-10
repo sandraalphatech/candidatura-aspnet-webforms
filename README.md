@@ -41,18 +41,20 @@ Antes de executar o projeto, configure a connection string no arquivo `Web.confi
 
 ```text
 Candidatura/
+├── Properties/
 ├── css/
-│   └── style.css
 ├── img/
-│   └── logo.png
 │
 ├── Candidatura.aspx
 ├── Candidatura.aspx.cs
 ├── Candidatura.aspx.designer.cs
+├── Candidatura.csproj
 │
 ├── Sucess.aspx
 ├── Sucess.aspx.cs
 ├── Sucess.aspx.designer.cs
 │
-├── packages.config
-└── Web.config
+├── Web.Debug.config
+├── Web.Release.config
+├── Web.config
+└── packages.config
